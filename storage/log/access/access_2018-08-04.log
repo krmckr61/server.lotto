@@ -1,0 +1,54 @@
+2018-08-04 14:29:35 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:10:49 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:15:24 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:28:49 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:29:15 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:30:50 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:34:09 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:34:10 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "clients" AS "client";
+2018-08-04 15:36:09 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:36:11 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "tasks" AS "task";
+2018-08-04 15:37:39 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:37:41 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "client";
+2018-08-04 15:37:41 | 
+2018-08-04 15:38:28 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:38:29 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "client";
+2018-08-04 15:38:29 | [object SequelizeInstance:client]
+2018-08-04 15:38:47 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:38:48 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 15:38:48 | [object SequelizeInstance:clients]
+2018-08-04 15:39:35 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:39:37 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 15:39:37 | undefined
+2018-08-04 15:39:44 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:39:46 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 15:39:46 | undefined
+2018-08-04 15:41:05 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:41:06 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 15:41:06 | undefined
+2018-08-04 15:42:41 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 15:42:47 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 15:42:50 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 15:42:50 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "clients";
+2018-08-04 16:07:51 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 16:07:53 | Executing (default): SELECT "id", "name", "password", "balance", "active", "banned", "created_at", "updated_at" FROM "client" AS "client";
+2018-08-04 16:13:33 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 16:13:34 | Executing (default): SELECT "id", "active", "cardpurchase", "created_at", "updated_at" FROM "game" AS "game" WHERE "game"."active" = true LIMIT 1;
+2018-08-04 16:13:34 | 123123
+2018-08-04 16:14:18 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 16:14:20 | Executing (default): SELECT "id", "active", "cardpurchase", "created_at", "updated_at" FROM "game" AS "game" WHERE "game"."active" = true LIMIT 1;
+2018-08-04 16:14:20 | [object SequelizeInstance:game]
+2018-08-04 16:14:28 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 16:14:29 | Executing (default): SELECT "id", "active", "cardpurchase", "created_at", "updated_at" FROM "game" AS "game" WHERE "game"."active" = true LIMIT 1;
+2018-08-04 16:14:29 | 1
+2018-08-04 16:31:22 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 16:31:59 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 16:32:01 | Executing (default): SELECT "id", "active", "cardpurchase", "created_at", "updated_at" FROM "game" AS "game" WHERE "game"."active" = true LIMIT 1;
+2018-08-04 16:32:01 | Executing (default): SELECT clientboard.*, client.name FROM clientboard INNER JOIN client ON clientboard.clientid=client.id WHERE clientboard.gameid=1
+2018-08-04 16:32:01 | yoook
+2018-08-04 17:11:36 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 17:12:15 | SERVER IS RUNNING ON 127.0.0.1:3000
+2018-08-04 17:12:18 | Executing (default): SELECT "id", "active", "cardpurchase", "created_at", "updated_at" FROM "game" AS "game" WHERE "game"."active" = true LIMIT 1;
+2018-08-04 17:12:18 | Executing (default): SELECT clientboard.*, client.name FROM clientboard INNER JOIN client ON clientboard.clientid=client.id WHERE clientboard.gameid=1
+2018-08-04 17:12:18 | Executing (default): SELECT client.id, client.name, client.balance FROM client INNER JOIN clientboard ON client.id=clientboard.clientid WHERE clientboard.gameid=1
+2018-08-04 17:12:18 | [object Object]

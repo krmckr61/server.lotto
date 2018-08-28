@@ -1,0 +1,71 @@
+2018-08-04 15:28:50 | [31mUnhandled rejection SequelizeConnectionError: database "asdasd" does not exist
+    at connection.connect.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:128:24)
+    at Connection.connectingErrorHandler (/var/www/socketserver.test/public_html/node_modules/pg/lib/client.js:123:14)
+    at Connection.emit (events.js:180:13)
+    at Socket.<anonymous> (/var/www/socketserver.test/public_html/node_modules/pg/lib/connection.js:123:12)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)[0m
+
+2018-08-04 15:29:17 | [31mUnhandled rejection SequelizeDatabaseError: relation "clients" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
+2018-08-04 15:30:51 | [31mUnhandled rejection SequelizeDatabaseError: relation "clients" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
+2018-08-04 15:34:10 | [31mUnhandled rejection SequelizeDatabaseError: relation "clients" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
+2018-08-04 15:36:11 | [31mUnhandled rejection SequelizeDatabaseError: relation "tasks" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+

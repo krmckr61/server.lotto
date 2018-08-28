@@ -1,0 +1,143 @@
+2018-07-05 02:36:11 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:37:59 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:40:42 | SERVER IS RUNNING ON 
+ *:3000
+2018-07-05 02:41:03 | SERVER IS RUNNING ON 
+ *:3000
+2018-07-05 02:41:16 | SERVER IS RUNNING ON 
+ *:3000
+2018-07-05 02:45:02 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:45:44 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:52:55 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:55:50 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:56:13 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:56:13 | (node:26654) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Model/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Model/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:38)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 02:56:13 | (node:26654) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+2018-07-05 02:56:13 | (node:26654) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 02:56:30 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:56:31 | (node:26668) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Model/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Model/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:38)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 02:56:31 | (node:26668) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+2018-07-05 02:56:31 | (node:26668) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 02:59:08 | SERVER IS RUNNING ON *:3000
+2018-07-05 02:59:09 | (node:26718) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Model/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Model/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:38)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 02:59:09 | (node:26718) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+2018-07-05 02:59:09 | (node:26718) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 02:59:26 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:01:55 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:02:48 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:11:14 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:11:15 | (node:27082) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Model/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Model/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:38)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 03:11:15 | (node:27082) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+2018-07-05 03:11:15 | (node:27082) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 03:22:09 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:22:13 | class Staff extends Model {
+
+}
+2018-07-05 03:23:21 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:23:23 | undefined
+2018-07-05 03:28:16 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:29:20 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:31:20 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:31:44 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:32:08 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:32:38 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:33:15 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:35:23 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:35:25 | 111
+2018-07-05 03:37:03 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:37:12 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:37:13 | 111
+2018-07-05 03:37:49 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:44:23 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:44:28 | user
+2018-07-05 03:45:34 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:45:35 | 
+2018-07-05 03:45:59 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:46:00 | user
+2018-07-05 03:46:30 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:46:31 | 
+2018-07-05 03:47:26 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:47:44 | SERVER IS RUNNING ON *:3000
+2018-07-05 03:47:45 | user
+2018-07-05 04:05:09 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:32:09 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:34:30 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:35:09 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:35:51 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:36:56 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:37:02 | undefined
+2018-07-05 04:37:32 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:37:33 | undefined
+2018-07-05 04:37:33 | Executing (default): INSERT INTO "users" ("id","name","email","active","status","created_at","updated_at","online","onlinestatus","maxvisitcount","createdAt","updatedAt") VALUES (DEFAULT,'test kullanıcı','test kullanıcı İışŞçÇöÖğĞüÜ','1','0','2018-07-05 01:37:33.527 +00:00','2018-07-05 01:37:33.527 +00:00','1','1',10,'2018-07-05 01:37:33.528 +00:00','2018-07-05 01:37:33.528 +00:00') RETURNING *;
+2018-07-05 04:38:57 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:38:58 | undefined
+2018-07-05 04:38:58 | Executing (default): INSERT INTO "users" ("id","name","email","active","status","created_at","updated_at","online","onlinestatus","maxvisitcount") VALUES (DEFAULT,'test kullanıcı','test kullanıcı İışŞçÇöÖğĞüÜ','1','0','2018-07-05 01:38:58.530 +00:00','2018-07-05 01:38:58.530 +00:00','1','1',10) RETURNING *;
+2018-07-05 04:40:00 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:40:01 | undefined
+2018-07-05 04:40:01 | Executing (default): INSERT INTO "users" ("id","name","email","active","status","created_at","updated_at","online","onlinestatus","maxvisitcount") VALUES (DEFAULT,'test kullanıcı','test kullanıcı İışŞçÇöÖğĞüÜ','1','0','2018-07-05 01:40:01.534 +00:00','2018-07-05 01:40:01.534 +00:00','1','1',10) RETURNING *;
+2018-07-05 04:41:11 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:41:12 | Executing (default): SELECT "id", "name", "email", "remember_token", "active", "status", "created_at", "updated_at", "online", "onlinestatus", "maxvisitcount" FROM "users" AS "users" WHERE "users"."id" = '1';
+2018-07-05 04:41:12 | [object SequelizeInstance:users]
+2018-07-05 04:41:40 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:41:42 | Executing (default): SELECT "id", "name", "email", "remember_token", "active", "status", "created_at", "updated_at", "online", "onlinestatus", "maxvisitcount" FROM "users" AS "users" WHERE "users"."id" = '1';
+2018-07-05 04:41:42 | 1
+2018-07-05 04:41:52 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:41:54 | Executing (default): SELECT "id", "name", "email", "remember_token", "active", "status", "created_at", "updated_at", "online", "onlinestatus", "maxvisitcount" FROM "users" AS "users" WHERE "users"."id" = '1';
+2018-07-05 04:41:54 | Kerem Çakır
+2018-07-05 04:43:25 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:43:58 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:44:14 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:45:16 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:45:36 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:45:52 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:52:21 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:54:08 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:55:10 | SERVER IS RUNNING ON *:3000
+2018-07-05 04:55:26 | SERVER IS RUNNING ON *:3000
+2018-07-05 06:06:06 | SERVER IS RUNNING ON *:3000
+2018-07-05 06:07:15 | SERVER IS RUNNING ON *:3000
+2018-07-05 06:10:22 | SERVER IS RUNNING ON *:3000
+2018-07-05 06:10:23 | 2018-07-05T06:10:23+03:00
+2018-07-05 06:10:23 | 1
+2018-07-05 06:14:20 | SERVER IS RUNNING ON *:3000
+2018-07-05 06:14:22 | 

@@ -1,0 +1,145 @@
+2018-07-05 02:59:27 | (node:26732) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Model/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Model/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:38)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 02:59:27 | (node:26732) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+2018-07-05 02:59:27 | (node:26732) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 03:02:52 | (node:26801) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Model/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Model/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:38)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 03:02:52 | (node:26801) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+2018-07-05 03:02:52 | (node:26801) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 03:32:08 | (node:27479) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Modelizer/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Modelizer/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:24)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 03:32:08 | (node:27479) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+2018-07-05 03:32:08 | (node:27479) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 03:32:40 | (node:27495) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Modelizer/index.js:41:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Modelizer/index.js:40:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:24)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 03:32:40 | (node:27495) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+2018-07-05 03:32:40 | (node:27495) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 03:33:22 | (node:27524) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'query' of undefined
+    at Promise (/var/www/socketserver.test/public_html/vendor/Modelizer/index.js:42:21)
+    at new Promise (<anonymous>)
+    at Function.first (/var/www/socketserver.test/public_html/vendor/Modelizer/index.js:41:16)
+    at Connection.connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:16:24)
+    at Connection.initListeners (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:12:14)
+    at new StaffModule (/var/www/socketserver.test/public_html/app/Modules/StaffModule.js:8:14)
+    at new Connection (/var/www/socketserver.test/public_html/app/Modules/Staff/Connection.js:10:1)
+    at ModuleInitializer.setModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:33:35)
+    at ModuleInitializer.setStaffSocketModules (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:27:14)
+    at Namespace.io.on (/var/www/socketserver.test/public_html/bootstrap/ModuleInitializer.js:15:22)
+2018-07-05 03:33:22 | (node:27524) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+2018-07-05 03:33:22 | (node:27524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-07-05 04:37:02 | [31mUnhandled rejection SequelizeConnectionError: password authentication failed for user "username"
+    at connection.connect.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:128:24)
+    at Connection.connectingErrorHandler (/var/www/socketserver.test/public_html/node_modules/pg/lib/client.js:123:14)
+    at Connection.emit (events.js:180:13)
+    at Socket.<anonymous> (/var/www/socketserver.test/public_html/node_modules/pg/lib/connection.js:123:12)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:274:12)
+    at readableAddChunk (_stream_readable.js:261:11)
+    at Socket.Readable.push (_stream_readable.js:218:10)
+    at TCP.onread (net.js:581:20)[0m
+
+2018-07-05 04:37:33 | [31mUnhandled rejection SequelizeDatabaseError: column "createdAt" of relation "users" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
+2018-07-05 04:43:59 | [31mUnhandled rejection SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:54322
+    at connection.connect.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:116:24)
+    at Connection.connectingErrorHandler (/var/www/socketserver.test/public_html/node_modules/pg/lib/client.js:123:14)
+    at Connection.emit (events.js:180:13)
+    at Socket.reportStreamError (/var/www/socketserver.test/public_html/node_modules/pg/lib/connection.js:71:10)
+    at Socket.emit (events.js:180:13)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at process._tickCallback (internal/process/next_tick.js:178:19)[0m
+
+2018-07-05 04:55:13 | [31mUnhandled rejection SequelizeDatabaseError: column "siteid" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
+2018-07-05 06:06:07 | [31mUnhandled rejection SequelizeDatabaseError: relation "useronlinetimes" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
+2018-07-05 06:07:16 | [31mUnhandled rejection SequelizeDatabaseError: relation "useronlinetimes" does not exist
+    at Query.formatError (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:363:16)
+    at query.catch.err (/var/www/socketserver.test/public_html/node_modules/sequelize/lib/dialects/postgres/query.js:86:18)
+    at tryCatcher (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/var/www/socketserver.test/public_html/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:763:18)
+    at tryOnImmediate (timers.js:734:5)
+    at processImmediate (timers.js:716:5)[0m
+
