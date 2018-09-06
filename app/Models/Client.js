@@ -1,7 +1,7 @@
 let Sequelize = require('sequelize');
 let sequelize = require('../../vendor/Sequalize/index');
 let SettingModel = require('./Setting');
-
+let PriceModel = require('./Price');
 
 let Client = sequelize.define('client', {
     id: {type: Sequelize.INTEGER, primaryKey: true, autoIncrement: true},
@@ -32,9 +32,17 @@ Client.getActiveClients = async function (gameId) {
     });
 };
 
-Client.setBalances = async function (clientboards, column) {
+Client.setBalances = async function (boards, gameId, column) {
     return new Promise((resolve) => {
-        if (clientboards.length > 0) {
+        if (boards.length > 0) {
+            let priceCount = boards.length;
+            for(let i = 0; i < boards.length; i++) {
+
+            }
+
+
+
+
             SettingModel.getValueToFloat(column).then(price => {
                 console.log(price);
                 let pricePerClient = price / clientboards.length;
@@ -89,6 +97,14 @@ Client.getBalance = async function (clientId) {
             } else {
                 resolve(false);
             }
+        });
+    });
+};
+
+Client.givePrice = async function (clientId, balance) {
+    return new Promise(resolve => {
+        sequelize.query("UPDATE client SET balance = " + balance + " + balance WHERE id=" + clientId + " RETURNING balance", {type: sequelize.QueryTypes.SELECT}).then(client => {
+            resolve(client[0].balance);
         });
     });
 };

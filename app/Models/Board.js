@@ -1,5 +1,7 @@
 let Sequelize = require('sequelize');
 let sequelize = require('../../vendor/Sequalize/index');
+let SettingModel = require('./Setting');
+let ClientModel = require('./Client');
 
 let Board = sequelize.define('board', {
     id: {type: Sequelize.INTEGER, primaryKey: true, autoIncrement: true},
@@ -23,17 +25,17 @@ Board.zincSql = "UPDATE " +
     "   clientboard.gameid={gameId} AND ";
 
 
-Board.setIfHasZinc = async function (numbers, boardId, func) {
+Board.setIfHasZinc = async function (numbers, func) {
     return new Promise(resolve => {
         switch (func) {
             case 'firstZinc':
-                resolve(this.firstZinc(numbers, boardId));
+                resolve(this.firstZinc(numbers));
                 break;
             case 'secondZinc':
-                resolve(this.secondZinc(numbers, boardId));
+                resolve(this.secondZinc(numbers));
                 break;
             case 'bingo':
-                resolve(this.bingo(numbers, boardId));
+                resolve(this.bingo(numbers));
                 break;
         }
     });
@@ -41,12 +43,7 @@ Board.setIfHasZinc = async function (numbers, boardId, func) {
 
 Board.firstZinc = async function (numbers, gameId) {
     return new Promise(resolve => {
-        let sql = this.zincSql.replace('{column}', 'firstzinc');
-        sql = sql.replace('{gameId}', gameId);
-        sequelize.query(sql +
-            "   (" +
-            "       " + numbers + " @> board.firstrow OR " + numbers + " @> board.secondrow OR " + numbers + " @> board.thirdrow" +
-            "   ) RETURNING clientboard.boardid, clientboard.clientid", {type: sequelize.QueryTypes.SELECT, returning: true}).then(boards => {
+        sequelize.query("SELECT board.id FROM board WHERE (" + numbers + " @> board.firstrow OR " + numbers + " @> board.secondrow OR " + numbers + " @> board.thirdrow)", {type: sequelize.QueryTypes.SELECT}).then(boards => {
             if(boards.length > 0) {
                 resolve(boards);
             } else {
@@ -58,14 +55,7 @@ Board.firstZinc = async function (numbers, gameId) {
 
 Board.secondZinc = async function (numbers, gameId) {
     return new Promise(resolve => {
-        let sql = this.zincSql.replace('{column}', 'secondzinc');
-        sql = sql.replace('{gameId}', gameId);
-        sequelize.query(sql +
-            "   (" +
-            "       (" + numbers + " @> board.firstrow AND " + numbers + " @> board.secondrow) OR " +
-            "       (" + numbers + " @> board.firstrow AND " + numbers + " @> board.thirdrow) OR " +
-            "       (" + numbers + " @> board.secondrow AND " + numbers + " @> board.thirdrow) " +
-            "   ) RETURNING clientboard.boardid, clientboard.clientid", {type: sequelize.QueryTypes.SELECT, returning: true}).then(boards => {
+        sequelize.query("SELECT board.id FROM board WHERE ( (" + numbers + " @> board.firstrow AND " + numbers + " @> board.secondrow) OR (" + numbers + " @> board.firstrow AND " + numbers + " @> board.thirdrow) OR (" + numbers + " @> board.secondrow AND " + numbers + " @> board.thirdrow) )", {type: sequelize.QueryTypes.SELECT}).then(boards => {
             if(boards.length > 0) {
                 resolve(boards);
             } else {
@@ -77,12 +67,7 @@ Board.secondZinc = async function (numbers, gameId) {
 
 Board.bingo = async function (numbers, gameId) {
     return new Promise(resolve => {
-        let sql = this.zincSql.replace('{column}', 'bingo');
-        sql = sql.replace('{gameId}', gameId);
-        sequelize.query(sql +
-            "   (" +
-            "       " + numbers + " @> board.firstrow AND " + numbers + " @> board.secondrow AND " + numbers + " @> board.thirdrow" +
-            "   ) RETURNING clientboard.boardid, clientboard.clientid", {type: sequelize.QueryTypes.SELECT, returning: true}).then(boards => {
+        sequelize.query("SELECT board.id FROM board WHERE (" + numbers + " @> board.firstrow AND " + numbers + " @> board.secondrow AND " + numbers + " @> board.thirdrow)", {type: sequelize.QueryTypes.SELECT}).then(boards => {
             if(boards.length > 0) {
                 resolve(boards);
             } else {

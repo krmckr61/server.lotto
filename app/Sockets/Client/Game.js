@@ -3,6 +3,7 @@ let GameData = require('../../../data/Game');
 let ClientBoardModel = require('../../Models/ClientBoard');
 let ClientModel = require('../../Models/Client');
 let SettingModel = require('../../Models/Setting');
+let PriceModel = require('../../Models/Price');
 
 /*
  * this.socket
@@ -11,17 +12,20 @@ let SettingModel = require('../../Models/Setting');
 
 class Game extends ClientModule {
     initListeners() {
-        this.socket.on('buyBoard', (boardId) => {
+        this.socket.on('buyBoard', (data) => {
+            let boardId = data.boardId;
+            let priceId = data.priceId;
+
             if (GameData.boardpurchase) {
                 ClientModel.getBalance(this.clientId).then(balance => {
                     if(balance) {
-                        SettingModel.getValueToFloat('boardprice').then(boardPrice => {
+                        PriceModel.getBoardPrice(priceId).then(boardPrice => {
                             if(balance >= boardPrice) {
                                 if (!GameData.isTaken(boardId)) {
                                     GameData.takenBoards.push(boardId);
                                     this.room().emit('boardBuyed', boardId);
                                     this.clientRoom().emit('addBoard', boardId);
-                                    ClientBoardModel.buyBoard(this.clientId, boardId, GameData.id, boardPrice).then(balance => {
+                                    ClientBoardModel.buyBoard(this.clientId, boardId, GameData.id, boardPrice, priceId).then(balance => {
                                         this.clientRoom().emit('setBalance', balance);
                                         this.io.to('boss').emit('setBalance', {clientId: this.clientId, balance: balance});
                                         ClientBoardModel.getWithClientName(boardId, GameData.id).then(clientBoard => {
@@ -31,6 +35,8 @@ class Game extends ClientModule {
                                 } else {
                                     this.clientRoom().emit('errorMessage', 'Bu kart başkası tarafından satın alınmış.');
                                 }
+                            } else {
+                                this.clientRoom().emit('errorMessage', 'Kart satın almak için bakiyeniz yetersiz.');
                             }
                         });
                     } else {

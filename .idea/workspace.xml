@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b38ee62-fc1b-4a9b-abce-55b6555d44db" name="Default" comment="" />
+    <list default="true" id="7b38ee62-fc1b-4a9b-abce-55b6555d44db" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Price.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Client.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ClientBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ClientBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Sockets/Client/Connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sockets/Client/Connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Sockets/Client/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sockets/Client/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Sockets/Staff/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sockets/Staff/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/ConfigInitializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/ConfigInitializer.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +22,9 @@
     <session id="1671092791">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -22,84 +32,76 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="92" />
+          <entry key="js" value="108" />
           <entry key="log" value="3" />
-          <entry key="ts" value="2" />
+          <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ANSI Aware" value="3" />
-          <entry key="JavaScript" value="92" />
-          <entry key="TypeScript" value="2" />
+          <entry key="JavaScript" value="108" />
+          <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="21014" />
+          <entry key="js" value="26214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="21014" />
+          <entry key="JavaScript" value="26214" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/Game.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Sockets/Staff/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="88" column="70" lean-forward="true" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Setting.js">
+        <entry file="file://$PROJECT_DIR$/app/Models/ClientBoard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="159">
+              <caret line="139" column="87" lean-forward="true" selection-start-line="139" selection-start-column="87" selection-end-line="139" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Game.js">
+        <entry file="file://$PROJECT_DIR$/app/Models/Client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="344">
+              <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Game.js">
+        <entry file="file://$PROJECT_DIR$/app/Models/Board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="1360">
+              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -107,17 +109,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Sockets/Client/Connection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="208">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Sockets/Staff/Connection.js">
+        <entry file="file://$PROJECT_DIR$/app/Sockets/Client/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="459">
+              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/ConfigInitializer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Price.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Setting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -133,8 +162,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>var</find>
-      <find>let</find>
       <find>console</find>
       <find>Server is</find>
       <find>nhandled promise rejection. This error originated either by throwing inside of an async function without a c</find>
@@ -153,23 +180,36 @@
       <find>cardpurca</find>
       <find>Config</find>
       <find>findOne</find>
-      <find>console.log</find>
       <find>SettingModel.getValue</find>
+      <find>Sequalize.BOOLEAN</find>
+      <find>UPDATE</find>
+      <find>UPDATE clientboard</find>
+      <find>setZincFromBoar</find>
+      <find>buy</find>
+      <find>returning: true</find>
+      <find>İİİİ</find>
+      <find>PriceMod</find>
+      <find>PriceMo</find>
+      <find>array[0, 1, 2, 3, 4, 5]</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
       <replace>logConfig</replace>
       <replace>Sequelize</replace>
       <replace>Setting</replace>
+      <replace>&quot; + numbers + &quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/Models</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Modules/SocketModule.js" />
         <option value="$PROJECT_DIR$/app/Modules/ClientModule.js" />
         <option value="$PROJECT_DIR$/app/Modules/Client/Message.js" />
         <option value="$PROJECT_DIR$/node_modules/pg/lib/connection.js" />
@@ -198,27 +238,28 @@
         <option value="$PROJECT_DIR$/vendor/Sequalize/index.js" />
         <option value="$PROJECT_DIR$/app/Modules/StaffModule.js" />
         <option value="$PROJECT_DIR$/config/log.js" />
-        <option value="$PROJECT_DIR$/bootstrap/ConfigInitializer.js" />
         <option value="$PROJECT_DIR$/app/Modules/Staff/Connection.js" />
         <option value="$PROJECT_DIR$/app/Modules/Staff/Game.js" />
         <option value="$PROJECT_DIR$/bootstrap/ServerInitializer.js" />
         <option value="$PROJECT_DIR$/data/Number.js" />
         <option value="$PROJECT_DIR$/app/Models/Config.js" />
         <option value="$PROJECT_DIR$/app/Sockets/ClientModule.js" />
-        <option value="$PROJECT_DIR$/app/Models/Board.js" />
         <option value="$PROJECT_DIR$/app/Sockets/Boss/Connection.js" />
         <option value="$PROJECT_DIR$/app/Sockets/StaffModule.js" />
         <option value="$PROJECT_DIR$/app/Sockets/Boss/Balance.js" />
         <option value="$PROJECT_DIR$/bootstrap/ModuleInitializer.js" />
-        <option value="$PROJECT_DIR$/app/Models/Client.js" />
-        <option value="$PROJECT_DIR$/app/Models/ClientBoard.js" />
-        <option value="$PROJECT_DIR$/app/Sockets/Client/Game.js" />
         <option value="$PROJECT_DIR$/app/Models/Game.js" />
         <option value="$PROJECT_DIR$/app/Models/Setting.js" />
         <option value="$PROJECT_DIR$/data/Game.js" />
         <option value="$PROJECT_DIR$/app/Sockets/Staff/Connection.js" />
         <option value="$PROJECT_DIR$/app/Modules/Game.js" />
+        <option value="$PROJECT_DIR$/app/Models/Price.js" />
+        <option value="$PROJECT_DIR$/bootstrap/ConfigInitializer.js" />
+        <option value="$PROJECT_DIR$/app/Sockets/Client/Game.js" />
+        <option value="$PROJECT_DIR$/app/Models/Client.js" />
+        <option value="$PROJECT_DIR$/app/Models/Board.js" />
         <option value="$PROJECT_DIR$/app/Sockets/Client/Connection.js" />
+        <option value="$PROJECT_DIR$/app/Models/ClientBoard.js" />
         <option value="$PROJECT_DIR$/app/Sockets/Staff/Game.js" />
       </list>
     </option>
@@ -364,6 +405,7 @@
     <option name="width" value="960" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -386,6 +428,18 @@
               <item name="SocketServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="public_html" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocketServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocketServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Sockets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,6 +449,23 @@
               <item name="Sockets" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SocketServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Sockets" type="462c0819:PsiDirectoryNode" />
+              <item name="Staff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocketServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocketServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -402,7 +473,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Game&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Sockets/Staff/Game.js&#10;game&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Models/Game.js&#10;client&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Models/Client.js&#10;gameData&#9;null&#9;null&#10;Staff&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Models/Staff.js&#10;seq&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="logini&#9;null&#9;null&#10;Game&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Sockets/Staff/Game.js&#10;game&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Models/Game.js&#10;client&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Models/Client.js&#10;gameData&#9;null&#9;null&#10;Staff&#9;FILE&#9;file:///var/www/socketserver.test/public_html/app/Models/Staff.js&#10;seq&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../user.supsis.test/public_html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -410,18 +481,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Sockets/Boss" />
-      <recent name="$PROJECT_DIR$/app/Sockets" />
-      <recent name="$PROJECT_DIR$/app/Sockets/Client" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-      <recent name="$PROJECT_DIR$/app/Modules/Staff" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/storage/log/access" />
       <recent name="$PROJECT_DIR$/vendor/Model/lib" />
       <recent name="$PROJECT_DIR$/vendor/Foundation" />
       <recent name="$PROJECT_DIR$/app/Modules/Client" />
+      <recent name="$PROJECT_DIR$/app/Modules/Staff" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/app/Sockets/Boss" />
+      <recent name="$PROJECT_DIR$/app/Sockets" />
+      <recent name="$PROJECT_DIR$/app/Sockets/Client" />
       <recent name="$PROJECT_DIR$/app/Modules/Staff" />
     </key>
   </component>
@@ -481,11 +552,16 @@
       <workItem from="1535326993701" duration="668000" />
       <workItem from="1535370232004" duration="1203000" />
       <workItem from="1535382525694" duration="34000" />
+      <workItem from="1535429359598" duration="689000" />
+      <workItem from="1535652523976" duration="2111000" />
+      <workItem from="1535719121626" duration="10596000" />
+      <workItem from="1535990999330" duration="8005000" />
+      <workItem from="1536179967979" duration="7037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145446000" />
+    <option name="totallyTimeSpent" value="173884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,13 +577,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23639274" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1670224" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32134572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.28372094" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32945284" />
       <window_info anchor="bottom" id="Run" order="7" />
@@ -529,7 +605,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/storage/log/access.log" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -554,13 +629,6 @@
     <entry file="file://$PROJECT_DIR$/app/Model.js" />
     <entry file="file://$PROJECT_DIR$/vendor/Modelizer/lib/Query.js" />
     <entry file="file://$PROJECT_DIR$/vendor/Modelizer/index.js" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="3003" column="16" lean-forward="true" selection-start-line="3003" selection-start-column="16" selection-end-line="3003" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -629,20 +697,6 @@
     <entry file="file://$PROJECT_DIR$/storage/log/access/access_2018-08-04.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/ConfigInitializer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/Sequalize/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -685,24 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bluebird/js/release/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="410" column="12" selection-start-line="410" selection-start-column="12" selection-end-line="410" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Board.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -727,45 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Sockets/StaffModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/ClientBoard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="98" column="11" lean-forward="true" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Sockets/Boss/Balance.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Sockets/ClientModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Sockets/Client/Game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -776,16 +781,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Setting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="497">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
@@ -797,24 +795,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Sockets/Client/Connection.js">
+    <entry file="file://$PROJECT_DIR$/app/Sockets/Staff/Connection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="497">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Sockets/Staff/Connection.js">
+    <entry file="file://$PROJECT_DIR$/app/Sockets/ClientModule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sockets/StaffModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="17116" column="12" selection-start-line="17116" selection-start-column="12" selection-end-line="17116" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sockets/Client/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/ConfigInitializer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Price.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sockets/Client/Connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bluebird/js/release/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="106" column="39" lean-forward="true" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ClientBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="139" column="87" lean-forward="true" selection-start-line="139" selection-start-column="87" selection-end-line="139" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Sockets/Staff/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="88" column="70" lean-forward="true" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
         </state>
       </provider>
     </entry>

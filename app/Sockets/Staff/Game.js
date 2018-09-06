@@ -9,6 +9,7 @@ let GameModule = require('../../Modules/Game');
 let GameData = require('../../../data/Game');
 let BoardModel = require('../../Models/Board');
 let ClientModel = require('../../Models/Client');
+let ClientBoardModel = require('../../Models/ClientBoard');
 let NumberData = require('../../../data/Number');
 let SettingModel = require('../../Models/Setting');
 let moment = require('moment');
@@ -23,7 +24,6 @@ class Game extends StaffModule {
                         SettingModel.getValue('boardTakingTime', false).then(boardTakingTime => {
                             data.startDate = moment(startDate).add(boardTakingTime, 'seconds').format('YYYY-MM-DD HH:mm:ss');
                             GameData.set(data);
-                            console.log(data.startDate);
                             data.numbers = NumberData.numbers;
                             GameModule.initStaffPage(data, this.socket);
                             GameModule.initClientPage(data, this.io);
@@ -78,28 +78,54 @@ class Game extends StaffModule {
                         column = 'secondZinc';
                     }
 
-                    BoardModel.setIfHasZinc(NumberData.toString(), GameData.id, column).then(boards => {
+                    BoardModel.setIfHasZinc(NumberData.toString(), column).then(boards => {
                         if (boards) {
-                            ClientModel.setBalances(boards, column).then((clients) => {
-                                if (clients.length > 0) {
-                                    for (let i = 0; i < clients.length; i++) {
-                                        let client = clients[i];
-                                        this.io.to('client-' + client.id).emit('setBalance', client.balance);
-                                    }
-                                }
+                            ClientBoardModel.setZincs(boards, GameData.id, column).then(clients => {
+                                if (Object.keys(clients).length > 0) {
+                                    GameData[column] = true;
+                                    this.io.to('client').emit(column, boards);
+                                    Object.keys(clients).forEach(key => {
+                                        let client = clients[key];
+                                        if(client && client.balance) {
+                                            this.io.to('client-' + client.clientId).emit('setBalance', client.balance);
+                                        }
 
-                                this.io.to('client').emit(column, boards);
-                                GameData[column] = true;
-                                if (column === 'bingo') {
-                                    GameData.setDefault();
-                                    NumberData.clear();
-                                    GameModel.endGame().then((end) => {
-                                        GameModule.initStaffPage({}, this.socket);
-                                        GameModule.initClientPage({}, this.socket);
+                                        if (column === 'bingo') {
+                                            GameData.setDefault();
+                                            NumberData.clear();
+                                            GameModel.endGame().then((end) => {
+                                                GameModule.initStaffPage({}, this.socket);
+                                                GameModule.initClientPage({}, this.socket);
+                                            });
+                                        }
+                                        this.socket.emit(column, boards);
                                     });
+                                } else {
+                                    console.log('YOKK');
                                 }
-                                this.socket.emit(column, boards);
                             });
+
+
+                            // ClientModel.setBalances(boards, GameData.id, column).then((clients) => {
+                            //     if (clients.length > 0) {
+                            //         for (let i = 0; i < clients.length; i++) {
+                            //             let client = clients[i];
+                            //             this.io.to('client-' + client.id).emit('setBalance', client.balance);
+                            //         }
+                            //     }
+                            //
+                            //     this.io.to('client').emit(column, boards);
+                            //     GameData[column] = true;
+                            //     if (column === 'bingo') {
+                            //         GameData.setDefault();
+                            //         NumberData.clear();
+                            //         GameModel.endGame().then((end) => {
+                            //             GameModule.initStaffPage({}, this.socket);
+                            //             GameModule.initClientPage({}, this.socket);
+                            //         });
+                            //     }
+                            //     this.socket.emit(column, boards);
+                            // });
                         }
                     });
 

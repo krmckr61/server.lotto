@@ -14,7 +14,7 @@ class LogInitializer {
 
         console.log = (log) => {
             let accessLogFile = false;
-            if(logConfig.writeLogsToFile) {
+            if (logConfig.writeLogsToFile) {
                 accessLogFile = fileSystem.createWriteStream('./' + accessLogFileName, {flags: 'a'});
             }
             this.addLog(accessLogFile, log);
@@ -22,23 +22,31 @@ class LogInitializer {
 
         console.error = (err) => {
             let errorLogFile = false;
-            if(logConfig.writeLogsToFile) {
+            if (logConfig.writeLogsToFile) {
                 errorLogFile = fileSystem.createWriteStream('./' + errorLogFileName, {flags: 'a'});
             }
             this.addLog(errorLogFile, err);
         };
 
-        console.warn  = (warn) => {
+        console.warn = (warn) => {
             let warningLogFile = false;
-            if(logConfig.writeLogsToFile) {
+            if (logConfig.writeLogsToFile) {
                 warningLogFile = fileSystem.createWriteStream('./' + warningLogFileName, {flags: 'a'});
             }
             this.addLog(warningLogFile, warn);
         };
+
+        console.objLog = (object) => {
+            Object.keys(object).forEach(key => {
+                console.log(object[key]);
+            });
+        };
+
     };
+
     addLog(logFile, text) {
-            text = util.format(moment().format('YYYY-MM-DD HH:mm:ss') + ' | ' + text) + '\n';
-        if(logFile) {
+        text = util.format(moment().format('YYYY-MM-DD HH:mm:ss') + ' | ' + text) + '\n';
+        if (logFile) {
             logFile.write(text);
         }
         if (logConfig.writeLogsToConsole) {
